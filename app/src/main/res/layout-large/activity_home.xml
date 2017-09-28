@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+
+            xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="20dp"
+                android:scaleType="fitXY"
+                android:id="@+id/home_all_categories" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="                          All Categories"
+
+                android:textColor="@color/icons"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="102dp"
+                android:background="@color/primary_text"
+                android:layout_marginRight="335dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="102dp"
+                android:layout_marginLeft="345dp"
+                android:background="@color/primary_text"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:text="                              Featured Collections"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_marginTop="160dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:id="@+id/home_most_talked_about"
+                android:layout_marginLeft="50dp"
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="255dp"
+                android:id="@+id/home_most_unique"
+                android:layout_marginTop="160dp"
+                android:layout_marginRight="50dp"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Most Talked"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginTop="300dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Most Unique"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="300dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="350dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/home_special_offers"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="                          Special Offers"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginTop="475dp"
+                android:scaleType="fitXY"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:id="@+id/home_start_selling"
+                android:text="     START SELLING"
+                android:layout_marginTop="540dp"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                />
+
+
+
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

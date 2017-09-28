@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.example.srushti.shoppe_smh.feedback">
+
+    <EditText
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/feedback_txt"/>
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:id="@+id/feedback_btn"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="200dp"
+        android:background="@android:drawable/ic_menu_send"/>
+
+</RelativeLayout>

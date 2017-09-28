@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.srushti.shoppe_smh" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".global_class"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Shoppe"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".splash"
+            android:label="Shoppe"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".all_categories"
+            android:label="@string/title_activity_all_categories"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".app_info"
+            android:label="@string/title_activity_app_info"
+            android:screenOrientation="portrait" android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".edit_profile"
+            android:label="@string/title_activity_edit_profile"
+            android:screenOrientation="portrait" android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait" android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".product_detail"
+            android:label="@string/title_activity_product_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".product_list"
+            android:label="@string/title_activity_product_list"
+            android:screenOrientation="portrait" android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".profile"
+            android:label="@string/title_activity_profile"
+            android:noHistory="true"
+            android:screenOrientation="portrait" android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".register"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+
+        </activity>
+        <activity
+            android:name=".sell"
+            android:label="@string/title_activity_sell"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".search_listview"
+            android:label="search result"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".chat_detail"
+            android:label="@string/title_activity_chat_detail"
+            android:screenOrientation="portrait">
+    </activity>
+        <activity
+            android:name=".activity_most_talked_about"
+            android:label="@string/title_activity_activity_most_talked_about"
+            android:screenOrientation="portrait" android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".most_unique"
+            android:label="@string/title_activity_most_unique"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".forget_password"
+            android:label="forgot password"
+            android:parentActivityName=".home"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".all_products"
+            android:label="@string/title_activity_all_products"
+            android:parentActivityName=".home"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+        <activity
+            android:name=".feedback"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.srushti.shoppe_smh.home" />
+        </activity>
+    </application>
+
+</manifest>

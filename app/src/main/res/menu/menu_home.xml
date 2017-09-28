@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.srushti.shoppe_smh.home">
+    <item android:id="@+id/action_edit_profile" android:title="Edit Profile"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_register" android:title="Register"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_search" android:title="Search"
+        android:icon="@android:drawable/ic_menu_search" app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/action_feedback" android:title="Feedback"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_view_profile" android:title="view profile"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

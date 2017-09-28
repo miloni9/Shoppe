@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:scaleType="fitXY"
+                android:id="@+id/all_categories_img_acc"/>
+            <TextView
+                android:text="Accessories 'n'
+     Jewellery"
+                android:id="@+id/all_categories_text_acc"
+                android:layout_width="150dp"
+                android:lines="2"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginTop="150dp"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:background="@color/primary"
+                android:layout_marginTop="147dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="180dp"
+                android:id="@+id/all_categories_img_men"
+
+                />
+            <TextView
+                android:text="Mens fashion"
+                android:id="@+id/all_categories_text_men"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="150dp"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="180dp"
+                android:background="@color/primary"
+                android:layout_marginTop="147dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:textSize="20dp"
+                android:layout_marginTop="200dp"
+                android:id="@+id/all_categories_img_women"
+
+                />
+            <TextView
+                android:id="@+id/all_categories_text_women"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:lines="1"
+                android:text="Womens fashion"
+                android:layout_marginTop="350dp"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:background="@color/primary"
+                android:layout_marginTop="347dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:layout_marginTop="200dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="180dp"
+                android:id="@+id/all_categories_item_kids"
+
+                />
+            <TextView
+                android:id="@+id/all_categories_text_kids"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="350dp"
+                android:lines="1"
+                android:text="Kids Stuff"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="180dp"
+                android:background="@color/primary"
+                android:layout_marginTop="347dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="400dp"
+                android:id="@+id/all_categories_img_mob"
+
+                />
+            <TextView
+                android:id="@+id/all_categories_text_mob"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:lines="1"
+                android:text="Mobile Accessaries"
+                android:layout_marginTop="550dp"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:background="@color/primary"
+                android:layout_marginTop="547dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="400dp"
+                android:scaleType="fitXY"
+                android:id="@+id/all_categories_img_creativity"
+
+                />
+            <TextView
+                android:id="@+id/all_categories_item_txt_creativity"
+                android:layout_width="150dp"
+                android:lines="1"
+                android:text="Creativity"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="550dp"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="180dp"
+                android:background="@color/primary"
+                android:layout_marginTop="547dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="600dp"
+                android:id="@+id/all_categories_img_foot_wear"
+
+                />
+            <TextView
+                android:id="@+id/all_categories_text_foot_wear"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:text="Foot Wear"
+                android:layout_marginTop="750dp"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:background="@color/primary"
+                android:layout_marginTop="747dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="600dp"
+                android:scaleType="fitXY"
+                android:id="@+id/all_categories_img_everything_else"
+
+                />
+            <TextView
+                android:id="@+id/all_categories_item_txt_everything_else"
+                android:layout_width="150dp"
+                android:text="Everything Else"
+                android:layout_height="wrap_content"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="750dp"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="180dp"
+                android:background="@color/primary"
+                android:layout_marginTop="747dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

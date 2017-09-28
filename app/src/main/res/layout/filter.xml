@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Based on price range:"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"/>
+    <RadioGroup
+        android:layout_width="385dp"
+        android:layout_height="200dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upto 500"
+            android:textSize="20dp"
+            android:id="@+id/filter_rbtn_500"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upto 1000"
+            android:id="@+id/filter_rbtn_1000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upto 5000"
+            android:id="@+id/filter_rbtn_5000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upto 10000"
+            android:id="@+id/filter_rbtn_10000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SHOW RESULT"
+        android:textSize="20dp"
+        android:id="@+id/filter_btn_result"/>
+</LinearLayout>

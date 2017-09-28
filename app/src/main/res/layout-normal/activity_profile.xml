@@ -1,0 +1,10 @@
+<android.support.v4.view.ViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/profile_viewpager"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.example.srushti.shoppe_smh.profile"
+    android:layout_width="match_parent">
+</android.support.v4.view.ViewPager>

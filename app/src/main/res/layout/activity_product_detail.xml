@@ -1,0 +1,129 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/product_details_viewpager"
+            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            >
+        </android.support.v4.view.ViewPager>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator_custom"
+            app:ci_width="10dp"
+            app:ci_height="4dp"
+            app:ci_margin="6dp"
+            app:ci_animator="@animator/indicator_animator"
+            app:ci_animator_reverse="@animator/indicator_animator_reverse"
+            app:ci_drawable="@drawable/black_radius_square"
+            android:layout_centerInParent="true"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"/>
+        <FrameLayout
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="20dp"
+
+                android:id="@+id/product_detail_like"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:textSize="20dp"
+                android:visibility="invisible"
+
+                android:id="@+id/product_detail_unlike"/>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_pro_description"
+            android:lines="4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Price : "/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:id="@+id/txt_pro_price"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Condition : "/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:id="@+id/txt_pro_condition"/>
+
+        </LinearLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/primary_text"
+                />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="140dp"
+                    android:id="@+id/product_detail_seller_name"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</FrameLayout>
